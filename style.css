@@ -1,0 +1,305 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.contact-us {
+  width: 1440px;
+  height: 706px;
+  background: #eee;
+  margin: 0 auto;
+}
+
+.title {
+  width: 187px;
+  height: 50px;
+
+  font-family: 'Crimson Text';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 125%;
+
+  text-align: center;
+
+  color: #000000;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.text-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 411px;
+  height: 126px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.lorem {
+  width: 411px;
+  height: 60px;
+
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 125%;
+
+  text-align: center;
+
+  color: #000000;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.map_and_forms {
+  display: flex;
+  width: 1180px;
+  height: 385px;
+  background: #999;
+  margin: 57px auto 0;
+}
+
+.map {
+  width: 575px;
+  height: 385px;
+}
+
+.label {
+  font-family: 'Work Sans';
+}
+
+.pol {
+  box-sizing: border-box;
+  margin-top: 22px;
+  width: 575px;
+  height: 38px;
+
+  background: #EEEEEE;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.message {
+  box-sizing: border-box;
+  margin-top: 22px;
+  width: 575px;
+  height: 75px;
+
+  background: #EEEEEE;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.button {
+  width: 575px;
+  height: 48px;
+  color: #FFFFFF;
+  background: #212529;
+  border-radius: 5px;
+  margin-top: 57px;
+}
+
+
+
+
+
+
+
+
+
+@media(max-width:375px) {
+  .cont-us {
+    display: flex;
+    justify-content: space-around;
+    width: 375px;
+    height: 978px;
+    background: #999;
+    margin: 0 auto;
+    position: absolute;
+  }
+
+  .text-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    margin-top: 44px;
+
+    position: relative;
+    width: 335px;
+    height: 131px;
+
+  }
+
+  .title {
+    font-family: 'Crimson Text';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 125%;
+    text-align: center;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+
+
+
+  .lorem {
+    width: 335px;
+    height: 85px;
+    font-family: 'Work Sans';
+    text-align: center;
+    color: #000000;
+  }
+
+  .map_and_forms {
+    display: flex;
+    flex-direction: column;
+    width: 335px;
+    height: 705px;
+    left: 20px;
+    top: 282px;
+  }
+
+  .map {
+    display: flex;
+    width: 335px;
+    height: 224px;
+    position: absolute;
+  }
+
+  .label {
+    font-family: 'Work Sans';
+  }
+
+  .pol {
+    box-sizing: border-box;
+    margin-top: 22px;
+    width: 335px;
+    height: 38px;
+    background: #EEEEEE;
+    border: 1px solid #000000;
+    border-radius: 5px;
+  }
+
+  .message {
+    box-sizing: border-box;
+    width: 335px;
+    height: 141px;
+    background: #EEEEEE;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+
+  .button {
+    height: 48px;
+    width: 335px;
+    position: absolute;
+    color: #FFFFFF;
+    background: #212529;
+    border-radius: 5px;
+  }
+}
+
+@media(max-width:568px) {
+  .cont-us {
+    display: flex;
+    justify-content: space-around;
+    width: 568px;
+    height: 560px;
+    background: #999;
+    margin: 0 auto;
+    position: absolute;
+  }
+
+  .text-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 440px;
+    height: 120px;
+  }
+
+  .title {
+    font-family: 'Crimson Text';
+    text-align: center;
+    color: #000000;
+    width: 210px;
+    height: 60px;
+  }
+
+  .lorem {
+    width: 210px;
+    height: 60px;
+    font-family: 'Work Sans';
+    text-align: center;
+    color: #000000;
+  }
+
+  .map_and_forms {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 420px;
+  }
+
+  .map {
+    display: flex;
+    flex-direction: column;
+    flex: content;
+    width: 250px;
+    height: 200px;
+    position: relative;
+  }
+
+  .label {
+    font-family: 'Work Sans'
+  }
+
+  .pol {
+    box-sizing: border-box;
+    margin-top: 22px;
+    width: 201px;
+    height: 50px;
+    background: #EEEEEE;
+    border: 1px solid #000000;
+    border-radius: 5px;
+  }
+
+  .message {
+    box-sizing: border-box;
+    width: 335px;
+    height: 141px;
+    background: #EEEEEE;
+    border: 1px solid #000000;
+    border-radius: 5px;
+  }
+
+  .button {
+    height: 48px;
+    width: 500px;
+    color: #FFFFFF;
+    background: #212529;
+    border-radius: 5px;
+  }
+}
